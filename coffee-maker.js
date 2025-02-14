@@ -4,9 +4,9 @@ function makeCoffee(isMachineOn) {
 
     setTimeout(() => {
       if (isMachineOn) {
-        resolve("☕ Coffee is ready!");
+        resolve("☕ KAHVI ON VALAMISTA!!!!!!");
       } else {
-        reject("🚫 Coffee machine is off. Please turn it on.");
+        reject("🚫 kahvi ei ole valmis :(. Käynnistä se päälle pliis!");
       }
     }, 2000); // Simulate 2 seconds to make coffee
   });
